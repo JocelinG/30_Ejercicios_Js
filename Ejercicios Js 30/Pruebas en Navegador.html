@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRUEBAS</title>
+</head>
+
+<body>
+  <h1>PROBANDO CODIGO EN CHROME</h1>
+
+<script>
+
+const opr = () => 
+{
+  const cadena =[];
+
+     for (let i = 0; i <= 10; i++) 
+     {cadena[i]= (Math.round(Math.random() * 1000)+1000);}
+
+    return console.info(`${cadena}
+    Mayor : ${Math.max(...cadena)}
+    Menor : ${Math.min(...cadena)}`);  
+}   
+opr();
+
+
+</script>
+</body>
+
+</html>
